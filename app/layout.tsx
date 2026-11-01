@@ -38,6 +38,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: config.domain,
   },
+  verification: {
+    google: '5fDi0Wznjr1mJRtL5ADh0Cw4G_5ZKtsjPWcN6JOsAWk',
+  },
   openGraph: {
     title: `${config.name} | Live Sports Trading & Exchange ID`,
     description: config.description,

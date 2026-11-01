@@ -53,3 +53,4 @@ npm start
 
 ## License & Compliance
 This software is strictly an informational frontend portal intended for users aged 18 and older. No gambling wagering or monetary transactions are hosted or processed by this application.
+
