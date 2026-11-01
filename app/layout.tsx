@@ -12,21 +12,22 @@ import {
 const config = SITE_CONFIGS.ramji4;
 
 export const metadata: Metadata = {
-  metadataBase: new URL(config.domain),
+  metadataBase: new URL('https://ramji247ipl.com'),
   title: {
-    default: `${config.name} | The Ultimate Sports Exchange & Real-Time Trading Arena`,
-    template: `%s | ${config.name}`,
+    default: "RAMJI247 | The Ultimate IPL Tournament & Cricket Trading Arena",
+    template: "%s | RAMJI247",
   },
   description: config.description,
-  keywords: [
-    'Ramji4',
-    'cricket exchange trading',
-    'back and lay cricket',
-    'zero delay odds',
-    'betting exchange id india',
-    'whatsapp betting id provider',
-    'live session fancy bets',
-    'instant id in 60 seconds'
+  keywords:   [
+      "RAMJI247 IPL",
+      "IPL Betting ID 2025",
+      "IPL Cricket ID Online",
+      "IPL Match Winner Odds",
+      "IPL Schedule & Teams",
+      "IPL Toss Prediction ID",
+      "IPL Session Rates",
+      "Indian Premier League Exchange",
+      "Official IPL ID WhatsApp"
   ],
   authors: [{ name: config.name }],
   creator: config.name,
