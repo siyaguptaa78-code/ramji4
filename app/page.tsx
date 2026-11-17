@@ -67,7 +67,7 @@ export default function HomePage() {
               </h1>
 
               <p className="text-sm sm:text-base text-neutral-300 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-                <strong className="text-sky-400 font-semibold">Ramji4</strong> provides institutional-grade cricket trading liquidity. Back and Lay live test matches, IPL fixtures, session runs and fancy markets with instant settlements via verified WhatsApp.
+                <strong className="text-sky-400 font-semibold">RAMJI247</strong> provides institutional-grade cricket trading liquidity. Back and Lay live test matches, IPL fixtures, session runs and fancy markets with instant settlements via verified WhatsApp.
               </p>
 
               <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3.5 pt-2">
@@ -237,7 +237,7 @@ export default function HomePage() {
       {/* 5. FAQS */}
       <FaqAccordion 
         faqs={GENERAL_FAQS}
-        title="Ramji4 Frequently Asked Questions"
+        title="RAMJI247 IPL Frequently Asked Questions"
         subtitle="Learn about back/lay betting, session markets, and instant WhatsApp support."
         brandPrimary="text-sky-400"
       />

@@ -6,14 +6,14 @@ export const WHATSAPP_LINK = 'https://wa.me/918360750829';
 export const SITE_CONFIGS: Record<string, SiteConfig> = {
   ramji2: {
     id: 'ramji2',
-    name: 'Ramji2',
+    name: 'RAMJI247',
     brandNumber: '2',
-    tagline: "India's Premier Sports Betting Exchange & Live Casino",
-    description: "Experience the royal standard of sports exchange & live dealer gaming with Ramji2. Get an Instant ID in 60 seconds on WhatsApp with 24/7 dedicated support.",
-    domain: 'https://ramji2.com',
+    tagline: "Online Cricket ID & Sports Exchange Information",
+    description: "Explore RAMJI247 online cricket ID guides, live sports exchange markets, and instant WhatsApp support available 24/7.",
+    domain: 'https://www.ramji247id.com',
     whatsappNumber: WHATSAPP_NUMBER,
     whatsappUrl: WHATSAPP_LINK,
-    defaultWhatsAppMessage: 'Hello Ramji2 Support, I would like to get an Instant ID & Demo details.',
+    defaultWhatsAppMessage: 'Hello RAMJI247 Support, I would like account and demo details.',
     theme: {
       primary: '#f59e0b', // Luxury Amber Gold
       primaryHover: '#d97706',
@@ -33,14 +33,14 @@ export const SITE_CONFIGS: Record<string, SiteConfig> = {
   },
   ramji3: {
     id: 'ramji3',
-    name: 'Ramji3',
+    name: 'RAMJI247',
     brandNumber: '3',
-    tagline: 'Next-Gen Sportsbook, eSports & Turbo Casino',
-    description: 'Ultra-fast odds and live in-play sports betting on Ramji3. Connect directly on WhatsApp for seamless registration, live updates, and instant payouts.',
-    domain: 'https://ramji3.com',
+    tagline: 'Live Cricket Updates, Match Odds & In-Play Exchange',
+    description: 'Follow live cricket match updates, ball-by-ball in-play market information, tournament schedules, and 24/7 WhatsApp support on RAMJI247.',
+    domain: 'https://www.ramji247cricket.live',
     whatsappNumber: WHATSAPP_NUMBER,
     whatsappUrl: WHATSAPP_LINK,
-    defaultWhatsAppMessage: 'Hello Ramji3 Team, please provide me with an Instant ID and active bonus information.',
+    defaultWhatsAppMessage: 'Hello RAMJI247 Support, please provide live match and account information.',
     theme: {
       primary: '#10b981', // Cyber Emerald
       primaryHover: '#059669',
@@ -62,12 +62,12 @@ export const SITE_CONFIGS: Record<string, SiteConfig> = {
     id: 'ramji4',
     name: 'RAMJI247',
     brandNumber: '4',
-    tagline: 'The Ultimate IPL Tournament & Cricket Trading Arena',
-    description: 'Official IPL tournament portal by RAMJI247. Live ball-by-ball IPL odds, match winner markets, toss predictions, and instant 2-minute cashouts.',
+    tagline: 'IPL Match Schedule, Tournament Guides & Exchange Arena',
+    description: 'Access IPL tournament schedules, team guides, live match markets, and 24/7 WhatsApp onboarding support with RAMJI247.',
     domain: 'https://ramji247ipl.com',
     whatsappNumber: WHATSAPP_NUMBER,
     whatsappUrl: WHATSAPP_LINK,
-    defaultWhatsAppMessage: 'Hi Ramji4 Support, I want to open an Exchange Account with demo login.',
+    defaultWhatsAppMessage: 'Hi RAMJI247 Support, I want tournament and exchange account details.',
     theme: {
       primary: '#38bdf8', // Electric Sky Blue
       primaryHover: '#0284c7',
@@ -87,14 +87,14 @@ export const SITE_CONFIGS: Record<string, SiteConfig> = {
   },
   ramji5: {
     id: 'ramji5',
-    name: 'Ramji5',
+    name: 'RAMJI247',
     brandNumber: '5',
-    tagline: 'Exclusive High-Roller VIP Lounge & Global Gaming Suite',
-    description: 'Step into luxury with Ramji5. Elite sports coverage, private high-limit tables, and concierge service on WhatsApp 24/7.',
-    domain: 'https://ramji5.com',
+    tagline: 'Online Casino, Live Dealer & Sports Exchange',
+    description: 'Explore RAMJI247 online casino guides, Teen Patti, Andar Bahar, live dealer tables, and sports exchange information with 24/7 WhatsApp support.',
+    domain: 'https://ramji247online.com',
     whatsappNumber: WHATSAPP_NUMBER,
     whatsappUrl: WHATSAPP_LINK,
-    defaultWhatsAppMessage: 'Greetings Ramji5 VIP Desk, please send me my VIP Access and ID details.',
+    defaultWhatsAppMessage: 'Greetings RAMJI247 Support, please share VIP casino and account details.',
     theme: {
       primary: '#e11d48', // Royal Ruby Red
       primaryHover: '#be123c',
@@ -107,9 +107,9 @@ export const SITE_CONFIGS: Record<string, SiteConfig> = {
     },
     features: [
       { title: 'Elite VIP Limits', description: 'Higher betting limits and personalized stakes tailored for high-rollers.', icon: 'Crown' },
-      { title: 'VIP WhatsApp Concierge', description: 'Direct personal manager on WhatsApp with priority queue priority.', icon: 'Star' },
-      { title: 'Exclusive Jackpots', description: 'Access to special daily prize pools and progressive high-roller games.', icon: 'Trophy' },
-      { title: 'Instant 24/7 Settlements', description: 'Round-the-clock priority withdrawal processing within minutes.', icon: 'ShieldCheck' },
+      { title: 'VIP WhatsApp Concierge', description: 'Direct personal manager on WhatsApp with priority queue assistance.', icon: 'Star' },
+      { title: 'Exclusive Live Tables', description: 'Access to private live dealer rooms and classic Indian card games.', icon: 'Trophy' },
+      { title: 'Rapid 24/7 Settlements', description: 'Round-the-clock priority withdrawal processing via UPI and IMPS.', icon: 'ShieldCheck' },
     ]
   }
 };
@@ -118,14 +118,12 @@ export const MOCK_MATCHES: Match[] = [
   {
     id: 'm1',
     sport: 'cricket',
-    league: 'IPL 2026 / T20 International Series',
+    league: 'International T20 Series',
     title: 'India vs Australia — 3rd T20I',
     team1: 'India',
     team2: 'Australia',
-    startTime: 'Today, 07:00 PM IST',
-    status: 'live',
-    score: 'IND 184/3 (17.4 ov) • AUS Yet to bat',
-    currentOver: 'Target: 215 • RR: 10.4',
+    startTime: 'Scheduled, 07:00 PM IST',
+    status: 'upcoming',
     odds: { back1: 1.48, lay1: 1.50, back2: 2.85, lay2: 2.92 },
     isFeatured: true
   },
@@ -160,9 +158,8 @@ export const MOCK_MATCHES: Match[] = [
     title: 'Arsenal vs Manchester City',
     team1: 'Arsenal',
     team2: 'Manchester City',
-    startTime: 'Live 62\'',
-    status: 'live',
-    score: 'ARS 2 - 1 MCI',
+    startTime: 'Weekend Match, 08:30 PM IST',
+    status: 'upcoming',
     odds: { back1: 1.85, lay1: 1.90, back2: 3.40, lay2: 3.55, backDraw: 3.20, layDraw: 3.35 },
     isFeatured: true
   },

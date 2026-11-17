@@ -24,9 +24,10 @@ export const CasinoCard: React.FC<CasinoCardProps> = ({
         <Image
           src={game.image}
           alt={`${game.name} by ${game.provider}`}
-          fill
+          width={400}
+          height={300}
           sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-          className="object-cover transition-transform duration-500 group-hover:scale-110"
+          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
         />
         
         {/* Dark Vignette Overlay */}
@@ -65,24 +66,22 @@ export const CasinoCard: React.FC<CasinoCardProps> = ({
             <span>Play Demo</span>
           </button>
           
-          <a
-            href={`${WHATSAPP_LINK}?text=${encodeURIComponent(`Hi Support, I want to play ${game.name} (${game.provider}) with Real Balance.`)}`}
-            target="_blank"
-            rel="noopener noreferrer"
+          <button
+            onClick={() => onPlayDemo?.(game)}
             className="flex items-center justify-center gap-1.5 w-full py-2 px-3 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold transition-transform active:scale-95 shadow-lg"
           >
             <MessageCircle size={14} className="fill-current" />
-            <span>Play on WhatsApp</span>
-          </a>
+            <span>Get {game.name} Info</span>
+          </button>
         </div>
       </div>
 
       {/* Game Card Footer Info */}
       <div className="p-3 bg-neutral-900/95 flex items-center justify-between">
         <div className="truncate pr-2">
-          <h4 className="text-xs sm:text-sm font-bold text-white truncate group-hover:text-amber-400 transition-colors">
+          <h3 className="text-xs sm:text-sm font-bold text-white truncate group-hover:text-amber-400 transition-colors">
             {game.name}
-          </h4>
+          </h3>
           <p className="text-[10px] text-neutral-400 truncate mt-0.5">
             {game.provider}
           </p>
