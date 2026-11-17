@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <rect width="800" height="400" fill="#040914"/>
+  <text x="40" y="45" font-family="'Montserrat', sans-serif" font-weight="800" font-size="20" fill="#38bdf8">Explosion of 200+ Team Totals in the IPL</text>
+  <text x="40" y="70" font-family="'Poppins', sans-serif" font-size="13" fill="#94a3b8">Number of 200+ scores recorded per IPL season demonstrating the Impact Player inflection.</text>
+
+  <!-- 2021 -->
+  <text x="60" y="290" font-family="'Montserrat', sans-serif" font-weight="700" font-size="13" fill="#94a3b8">2021</text>
+  <rect x="60" y="240" width="80" height="30" rx="4" fill="#1e293b"/>
+  <text x="92" y="260" font-family="'Montserrat', sans-serif" font-weight="800" font-size="13" fill="#ffffff">10</text>
+
+  <!-- 2022 -->
+  <text x="180" y="290" font-family="'Montserrat', sans-serif" font-weight="700" font-size="13" fill="#94a3b8">2022</text>
+  <rect x="180" y="220" width="80" height="50" rx="4" fill="#1e293b"/>
+  <text x="212" y="250" font-family="'Montserrat', sans-serif" font-weight="800" font-size="13" fill="#ffffff">18</text>
+
+  <!-- 2023 (Rule Introduced) -->
+  <text x="300" y="290" font-family="'Montserrat', sans-serif" font-weight="700" font-size="13" fill="#38bdf8">2023</text>
+  <rect x="300" y="160" width="80" height="110" rx="4" fill="#0284c7"/>
+  <text x="330" y="215" font-family="'Montserrat', sans-serif" font-weight="800" font-size="16" fill="#ffffff">37</text>
+
+  <!-- 2024 -->
+  <text x="420" y="290" font-family="'Montserrat', sans-serif" font-weight="700" font-size="13" fill="#38bdf8">2024</text>
+  <rect x="420" y="110" width="80" height="160" rx="4" fill="#38bdf8"/>
+  <text x="450" y="195" font-family="'Montserrat', sans-serif" font-weight="900" font-size="20" fill="#040914">41</text>
+
+  <!-- Note -->
+  <rect x="530" y="110" width="230" height="160" rx="8" fill="#0c1d38" stroke="#172e54"/>
+  <text x="550" y="145" font-family="'Montserrat', sans-serif" font-weight="800" font-size="14" fill="#38bdf8">KEY INSIGHT</text>
+  <text x="550" y="180" font-family="'Poppins', sans-serif" font-size="13" fill="#e2e8f0">Over 300% surge in 200+ scores since the Impact Player rule removed the risk penalty for batting aggression.</text>
+</svg>

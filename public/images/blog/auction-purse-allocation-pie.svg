@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#040914"/>
+  <rect x="40" y="40" width="1120" height="550" rx="16" fill="#091428" stroke="#172e54"/>
+  <text x="80" y="90" font-family="'Montserrat', sans-serif" font-weight="900" font-size="28" fill="#38bdf8">RAMJI247 IPL • MEGA AUCTION ECONOMICS</text>
+  <text x="80" y="130" font-family="'Montserrat', sans-serif" font-weight="800" font-size="34" fill="#ffffff">The 40-30-20-10 Capital Allocation Model</text>
+  <text x="80" y="160" font-family="'Poppins', sans-serif" font-size="16" fill="#94a3b8">How championship franchises allocate a ₹120 Crore auction purse across strategic player tiers.</text>
+
+  <rect x="80" y="210" width="250" height="320" rx="10" fill="#0c1d38" stroke="#38bdf8"/>
+  <text x="100" y="245" font-family="'Montserrat', sans-serif" font-weight="900" font-size="32" fill="#38bdf8">40%</text>
+  <text x="100" y="280" font-family="'Montserrat', sans-serif" font-weight="700" font-size="16" fill="#ffffff">ELITE MARQUEE CORE</text>
+  <text x="100" y="315" font-family="'Poppins', sans-serif" font-size="13" fill="#bae6fd">• ₹48 Crore allocation</text>
+  <text x="100" y="345" font-family="'Poppins', sans-serif" font-size="13" fill="#bae6fd">• Top 2–3 franchise pillars</text>
+  <text x="100" y="375" font-family="'Poppins', sans-serif" font-size="13" fill="#bae6fd">• Captain, elite pace ace, or marquee anchor</text>
+  <text x="100" y="420" font-family="'Poppins', sans-serif" font-size="12" fill="#94a3b8">Inelastic demand; highest auction pricing.</text>
+
+  <rect x="360" y="210" width="250" height="320" rx="10" fill="#0c1d38" stroke="#0284c7"/>
+  <text x="380" y="245" font-family="'Montserrat', sans-serif" font-weight="900" font-size="32" fill="#0284c7">30%</text>
+  <text x="380" y="280" font-family="'Montserrat', sans-serif" font-weight="700" font-size="16" fill="#ffffff">STARTING XI SPECIALISTS</text>
+  <text x="380" y="315" font-family="'Poppins', sans-serif" font-size="13" fill="#bae6fd">• ₹36 Crore allocation</text>
+  <text x="380" y="345" font-family="'Poppins', sans-serif" font-size="13" fill="#bae6fd">• 4–5 proven role-players</text>
+  <text x="380" y="375" font-family="'Poppins', sans-serif" font-size="13" fill="#bae6fd">• Death specialists, mystery spin, overseas power</text>
+  <text x="380" y="420" font-family="'Poppins', sans-serif" font-size="12" fill="#94a3b8">Target price: ₹6 Cr to ₹9 Cr each.</text>
+
+  <rect x="640" y="210" width="250" height="320" rx="10" fill="#0c1d38" stroke="#1d4ed8"/>
+  <text x="660" y="245" font-family="'Montserrat', sans-serif" font-weight="900" font-size="32" fill="#60a5fa">20%</text>
+  <text x="660" y="280" font-family="'Montserrat', sans-serif" font-weight="700" font-size="16" fill="#ffffff">VERSATILE SQUAD DEPTH</text>
+  <text x="660" y="315" font-family="'Poppins', sans-serif" font-size="13" fill="#bae6fd">• ₹24 Crore allocation</text>
+  <text x="660" y="345" font-family="'Poppins', sans-serif" font-size="13" fill="#bae6fd">• 6–8 seasoned backups</text>
+  <text x="660" y="375" font-family="'Poppins', sans-serif" font-size="13" fill="#bae6fd">• Injury cover, match-up alternatives</text>
+  <text x="660" y="420" font-family="'Poppins', sans-serif" font-size="12" fill="#94a3b8">Target price: ₹2 Cr to ₹4 Cr each.</text>
+
+  <rect x="920" y="210" width="200" height="320" rx="10" fill="#0c1d38" stroke="#10b981"/>
+  <text x="940" y="245" font-family="'Montserrat', sans-serif" font-weight="900" font-size="32" fill="#10b981">10%</text>
+  <text x="940" y="280" font-family="'Montserrat', sans-serif" font-weight="700" font-size="15" fill="#ffffff">UNCAPPED GEMS</text>
+  <text x="940" y="315" font-family="'Poppins', sans-serif" font-size="12" fill="#bae6fd">• ₹12 Crore allocation</text>
+  <text x="940" y="345" font-family="'Poppins', sans-serif" font-size="12" fill="#bae6fd">• 6–8 domestic talents</text>
+  <text x="940" y="375" font-family="'Poppins', sans-serif" font-size="12" fill="#bae6fd">• Base price: ₹30L - ₹50L</text>
+  <text x="940" y="420" font-family="'Poppins', sans-serif" font-weight="700" font-size="12" fill="#34d399">Highest ROI potential</text>
+</svg>

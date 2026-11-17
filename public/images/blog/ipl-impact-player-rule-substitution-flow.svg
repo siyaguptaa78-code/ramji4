@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#040914"/>
+  <rect x="40" y="40" width="1120" height="550" rx="16" fill="#091428" stroke="#172e54"/>
+  <text x="80" y="90" font-family="'Montserrat', sans-serif" font-weight="900" font-size="28" fill="#38bdf8">RAMJI247 IPL • TACTICAL ANALYSIS</text>
+  <text x="80" y="130" font-family="'Montserrat', sans-serif" font-weight="800" font-size="34" fill="#ffffff">The Impact Player Rule: Tactical Substitution Matrix</text>
+  <text x="80" y="160" font-family="'Poppins', sans-serif" font-size="16" fill="#94a3b8">How the 12-man substitution framework revolutionized 200+ totals and lineup balance in the IPL.</text>
+
+  <!-- Batting First Scenario -->
+  <rect x="80" y="200" width="490" height="340" rx="12" fill="#0c1d38" stroke="#0284c7" stroke-width="2"/>
+  <rect x="100" y="220" width="180" height="30" rx="6" fill="#0284c7"/>
+  <text x="110" y="240" font-family="'Montserrat', sans-serif" font-weight="800" font-size="13" fill="#ffffff">SCENARIO A: BATTING FIRST</text>
+  <text x="100" y="280" font-family="'Poppins', sans-serif" font-weight="700" font-size="17" fill="#ffffff">Pure Batsman ➔ Specialist Bowler</text>
+  <text x="100" y="315" font-family="'Poppins', sans-serif" font-size="14" fill="#bae6fd">• Name 5 specialist batters + wicketkeeper</text>
+  <text x="100" y="345" font-family="'Poppins', sans-serif" font-size="14" fill="#bae6fd">• Top-order bats with zero conservation mindset</text>
+  <text x="100" y="375" font-family="'Poppins', sans-serif" font-size="14" fill="#bae6fd">• At inning break: sub out top-order batsman</text>
+  <text x="100" y="405" font-family="'Poppins', sans-serif" font-size="14" fill="#bae6fd">• Bring in 5th specialist strike bowler for 4 overs</text>
+  <rect x="100" y="450" width="450" height="55" rx="6" fill="#040914"/>
+  <text x="120" y="482" font-family="'Poppins', sans-serif" font-weight="700" font-size="13" fill="#38bdf8">Outcome: Effectively playing 8 pure batsmen + 5 pure bowlers</text>
+
+  <!-- Bowling First Scenario -->
+  <rect x="630" y="200" width="490" height="340" rx="12" fill="#0c1d38" stroke="#38bdf8" stroke-width="2"/>
+  <rect x="650" y="220" width="180" height="30" rx="6" fill="#38bdf8"/>
+  <text x="660" y="240" font-family="'Montserrat', sans-serif" font-weight="800" font-size="13" fill="#040914">SCENARIO B: BOWLING FIRST</text>
+  <text x="650" y="280" font-family="'Poppins', sans-serif" font-weight="700" font-size="17" fill="#ffffff">Specialist Bowler ➔ Power Finisher</text>
+  <text x="650" y="315" font-family="'Poppins', sans-serif" font-size="14" fill="#bae6fd">• Bowl 5 specialist frontline bowlers 20 overs</text>
+  <text x="650" y="345" font-family="'Poppins', sans-serif" font-size="14" fill="#bae6fd">• Complete 4-over quota of target bowler</text>
+  <text x="650" y="375" font-family="'Poppins', sans-serif" font-size="14" fill="#bae6fd">• Sub out bowler for an explosive pinch-hitter</text>
+  <text x="650" y="405" font-family="'Poppins', sans-serif" font-size="14" fill="#bae6fd">• Elongates batting depth down to position #9</text>
+  <rect x="650" y="450" width="450" height="55" rx="6" fill="#040914"/>
+  <text x="670" y="482" font-family="'Poppins', sans-serif" font-weight="700" font-size="13" fill="#7dd3fc">Outcome: Eliminates fear of collapse; chases of 220+ normalized</text>
+</svg>

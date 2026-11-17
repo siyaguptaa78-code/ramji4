@@ -96,6 +96,7 @@ export const Footer: React.FC<FooterProps> = ({ siteName, brandNumber, tagline }
               <li><Link href="/contact" className="hover:text-white transition-colors">Official WhatsApp Desk</Link></li>
               <li><Link href="/promotions" className="hover:text-white transition-colors">VIP Rewards & Bonuses</Link></li>
               <li><Link href="/responsible-gaming" className="hover:text-white transition-colors">Responsible Gaming (18+)</Link></li>
+              <li><Link href="/blog" className="hover:text-white transition-colors">Editorial & Sports Blog</Link></li>
               <li><Link href="/terms" className="hover:text-white transition-colors">Terms of Information</Link></li>
               <li><a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="text-emerald-400 font-bold hover:underline">Instant WhatsApp Demo</a></li>
             </ul>

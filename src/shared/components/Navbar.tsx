@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { 
   Menu, X, MessageCircle, Flame, Shield, Trophy, 
-  Gamepad2, Sparkles, ChevronRight, PhoneCall 
+  Gamepad2, Sparkles, ChevronRight, PhoneCall, BookOpen 
 } from 'lucide-react';
 import { HeaderLogo } from './HeaderLogo';
 import { WhatsAppCtaModal } from './WhatsAppCtaModal';
@@ -34,6 +34,7 @@ export const Navbar: React.FC<NavbarProps> = ({
     { label: 'Live Casino', href: '/casino', icon: Gamepad2 },
     { label: 'Crash / Aviator', href: '/casino#crash', icon: Sparkles },
     { label: 'VIP Promotions', href: '/promotions', icon: Shield },
+    { label: 'Blog & Insights', href: '/blog', icon: BookOpen },
     { label: 'Contact & WhatsApp', href: '/contact', icon: PhoneCall },
   ];
 

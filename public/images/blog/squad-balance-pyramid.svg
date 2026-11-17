@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350" width="800" height="350">
+  <rect width="800" height="350" fill="#040914"/>
+  <text x="40" y="45" font-family="'Montserrat', sans-serif" font-weight="800" font-size="20" fill="#38bdf8">The Championship Squad Architecture Pyramid</text>
+  <text x="40" y="70" font-family="'Poppins', sans-serif" font-size="13" fill="#94a3b8">Hierarchical roster balance for 14-match tournament endurance.</text>
+
+  <!-- Top of Pyramid -->
+  <rect x="250" y="110" width="300" height="45" rx="6" fill="#38bdf8"/>
+  <text x="290" y="138" font-family="'Montserrat', sans-serif" font-weight="800" font-size="14" fill="#040914">1. LEADERSHIP &amp; CORE (4–5 PLAYERS)</text>
+
+  <!-- Middle 1 -->
+  <rect x="200" y="165" width="400" height="45" rx="6" fill="#0284c7"/>
+  <text x="235" y="193" font-family="'Montserrat', sans-serif" font-weight="800" font-size="14" fill="#ffffff">2. STARTING SPECIALISTS (6–7 PLAYERS)</text>
+
+  <!-- Middle 2 -->
+  <rect x="150" y="220" width="500" height="45" rx="6" fill="#1d4ed8"/>
+  <text x="205" y="248" font-family="'Montserrat', sans-serif" font-weight="800" font-size="14" fill="#ffffff">3. TACTICAL IMPACT SUBS &amp; BACKUPS (6 PLAYERS)</text>
+
+  <!-- Base -->
+  <rect x="100" y="275" width="600" height="45" rx="6" fill="#1e293b"/>
+  <text x="175" y="303" font-family="'Montserrat', sans-serif" font-weight="800" font-size="14" fill="#ffffff">4. DEVELOPMENTAL &amp; UNCAPPED TALENTS (6–8 PLAYERS)</text>
+</svg>

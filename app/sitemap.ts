@@ -24,6 +24,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${baseUrl}/blog`,
+      lastModified: currentDate,
+      changeFrequency: 'daily',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/blog/ipl-impact-player-rule-tactical-evolution-and-team-strategies`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog/mega-auction-dynamics-and-t20-squad-construction-analytics`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/promotions`,
       lastModified: currentDate,
       changeFrequency: 'weekly',
@@ -49,4 +67,3 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 }
-

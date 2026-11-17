@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350" width="800" height="350">
+  <rect width="800" height="350" fill="#040914"/>
+  <text x="40" y="45" font-family="'Montserrat', sans-serif" font-weight="800" font-size="20" fill="#38bdf8">Strike Rate Inflation: Pre-Impact vs Post-Impact Era</text>
+  <text x="40" y="70" font-family="'Poppins', sans-serif" font-size="13" fill="#94a3b8">League-wide batting strike rate comparison across the three game phases.</text>
+
+  <rect x="40" y="105" width="220" height="200" rx="8" fill="#0c1d38" stroke="#172e54"/>
+  <text x="60" y="135" font-family="'Montserrat', sans-serif" font-weight="800" font-size="14" fill="#ffffff">POWERPLAY (1–6)</text>
+  <text x="60" y="170" font-family="'Poppins', sans-serif" font-size="13" fill="#94a3b8">Pre-2023: 128.4 SR</text>
+  <text x="60" y="200" font-family="'Montserrat', sans-serif" font-weight="800" font-size="20" fill="#38bdf8">Post-2023: 154.2 SR</text>
+  <text x="60" y="235" font-family="'Poppins', sans-serif" font-size="12" fill="#7dd3fc">+25.8 SR Jump</text>
+  <text x="60" y="270" font-family="'Poppins', sans-serif" font-size="12" fill="#94a3b8">Uninhibited aerial assault</text>
+
+  <rect x="290" y="105" width="220" height="200" rx="8" fill="#0c1d38" stroke="#172e54"/>
+  <text x="310" y="135" font-family="'Montserrat', sans-serif" font-weight="800" font-size="14" fill="#ffffff">MIDDLE (7–15)</text>
+  <text x="310" y="170" font-family="'Poppins', sans-serif" font-size="13" fill="#94a3b8">Pre-2023: 122.1 SR</text>
+  <text x="310" y="200" font-family="'Montserrat', sans-serif" font-weight="800" font-size="20" fill="#38bdf8">Post-2023: 138.6 SR</text>
+  <text x="310" y="235" font-family="'Poppins', sans-serif" font-size="12" fill="#7dd3fc">+16.5 SR Jump</text>
+  <text x="310" y="270" font-family="'Poppins', sans-serif" font-size="12" fill="#94a3b8">Spinners targeted for boundaries</text>
+
+  <rect x="540" y="105" width="220" height="200" rx="8" fill="#0c1d38" stroke="#172e54"/>
+  <text x="560" y="135" font-family="'Montserrat', sans-serif" font-weight="800" font-size="14" fill="#ffffff">DEATH (16–20)</text>
+  <text x="560" y="170" font-family="'Poppins', sans-serif" font-size="13" fill="#94a3b8">Pre-2023: 168.5 SR</text>
+  <text x="560" y="200" font-family="'Montserrat', sans-serif" font-weight="800" font-size="20" fill="#38bdf8">Post-2023: 198.8 SR</text>
+  <text x="560" y="235" font-family="'Poppins', sans-serif" font-size="12" fill="#7dd3fc">+30.3 SR Jump</text>
+  <text x="560" y="270" font-family="'Poppins', sans-serif" font-size="12" fill="#94a3b8">Specialist finishers down to #8</text>
+</svg>
