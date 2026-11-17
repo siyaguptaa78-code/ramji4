@@ -104,9 +104,30 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <head>
+        {/* Google Tag Manager */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KK347ZR2');`,
+          }}
+        />
+        {/* End Google Tag Manager */}
         <JsonLd data={jsonLdData} />
       </head>
       <body className="bg-[#040914] text-neutral-100 flex flex-col min-h-screen antialiased selection:bg-sky-500 selection:text-black">
+        {/* Google Tag Manager (noscript) */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-KK347ZR2"
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          />
+        </noscript>
+        {/* End Google Tag Manager (noscript) */}
         <LiveTicker badgeText="RAMJI4 EXCHANGE" />
         <Navbar 
           siteName={config.name} 
