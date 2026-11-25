@@ -39,7 +39,7 @@ export default function BlogHubPage() {
       headline: post.title,
       description: post.summary,
       url: `https://ramji247ipl.com/blog/${post.slug}`,
-      datePublished: '2026-11-18',
+      datePublished: post.isoDate ? post.isoDate.slice(0, 10) : '2026-11-18',
       author: {
         '@type': 'Organization',
         name: post.author,
@@ -79,7 +79,7 @@ export default function BlogHubPage() {
               <div className="relative w-full aspect-[16/9] bg-slate-950 border-b border-slate-800/80 p-4">
                 <Image
                   src={post.heroImage}
-                  alt={post.title}
+                  alt={post.heroImageAlt || post.title}
                   fill
                   className="object-contain p-2 group-hover:scale-105 transition-transform duration-300"
                 />

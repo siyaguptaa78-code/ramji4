@@ -32,14 +32,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       url: `https://ramji247ipl.com/blog/${post.slug}`,
       siteName: 'RAMJI247 IPL',
       type: 'article',
-      publishedTime: '2026-11-18T00:00:00.000Z',
+      publishedTime: post.isoDate || '2026-11-18T00:00:00.000Z',
       authors: [post.author],
       images: [
         {
           url: `https://ramji247ipl.com${post.heroImage}`,
           width: 1200,
           height: 630,
-          alt: post.title,
+          alt: post.heroImageAlt || post.title,
         },
       ],
     },
@@ -56,14 +56,16 @@ export default function BlogPostPage({ params }: PageProps) {
   const post = RAMJI4_BLOG_POSTS.find((p) => p.slug === params.slug);
   if (!post) notFound();
 
+  const publishedIso = post.isoDate || '2026-11-18T00:00:00.000Z';
+
   const blogPostingJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
     headline: post.title,
     description: post.summary,
     url: `https://ramji247ipl.com/blog/${post.slug}`,
-    datePublished: '2026-11-18T00:00:00.000Z',
-    dateModified: '2026-11-18T00:00:00.000Z',
+    datePublished: publishedIso,
+    dateModified: publishedIso,
     mainEntityOfPage: {
       '@type': 'WebPage',
       '@id': `https://ramji247ipl.com/blog/${post.slug}`,
@@ -136,10 +138,12 @@ export default function BlogPostPage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
-      />
+      {post.faqs.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
 
       <div className="max-w-4xl mx-auto">
         {/* Breadcrumb Nav */}
@@ -181,15 +185,22 @@ export default function BlogPostPage({ params }: PageProps) {
         </header>
 
         {/* Hero Graphic Container */}
-        <div className="relative w-full aspect-[16/9] bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden mb-12 shadow-2xl p-4">
-          <Image
-            src={post.heroImage}
-            alt={post.title}
-            fill
-            priority
-            className="object-contain p-2"
-          />
-        </div>
+        <figure className="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden mb-12 shadow-2xl">
+          <div className="relative w-full aspect-[16/9] p-4">
+            <Image
+              src={post.heroImage}
+              alt={post.heroImageAlt || post.title}
+              fill
+              priority
+              className="object-contain p-2"
+            />
+          </div>
+          {post.heroImageCaption && (
+            <figcaption className="px-4 py-3 text-xs text-slate-400 border-t border-slate-800 bg-slate-950/60 text-center">
+              {post.heroImageCaption}
+            </figcaption>
+          )}
+        </figure>
 
         {/* Table of Contents */}
         <div className="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 mb-12">
@@ -217,20 +228,22 @@ export default function BlogPostPage({ params }: PageProps) {
         />
 
         {/* FAQ Section */}
-        <section id="faqs" className="mb-16 border-t border-slate-800 pt-12">
-          <h2 className="text-2xl md:text-3xl font-bold text-white mb-8 flex items-center gap-3">
-            <span className="w-2.5 h-8 bg-sky-500 rounded-full inline-block"></span>
-            Frequently Asked Questions
-          </h2>
-          <div className="space-y-6">
-            {post.faqs.map((faq, idx) => (
-              <div key={idx} className="bg-slate-900/70 border border-slate-800 rounded-xl p-6">
-                <h3 className="text-lg font-bold text-sky-300 mb-2">{faq.q}</h3>
-                <p className="text-slate-300 text-sm md:text-base leading-relaxed">{faq.a}</p>
-              </div>
-            ))}
-          </div>
-        </section>
+        {post.faqs.length > 0 && (
+          <section id="faqs" className="mb-16 border-t border-slate-800 pt-12">
+            <h2 className="text-2xl md:text-3xl font-bold text-white mb-8 flex items-center gap-3">
+              <span className="w-2.5 h-8 bg-sky-500 rounded-full inline-block"></span>
+              Frequently Asked Questions
+            </h2>
+            <div className="space-y-6">
+              {post.faqs.map((faq, idx) => (
+                <div key={idx} className="bg-slate-900/70 border border-slate-800 rounded-xl p-6">
+                  <h3 className="text-lg font-bold text-sky-300 mb-2">{faq.q}</h3>
+                  <p className="text-slate-300 text-sm md:text-base leading-relaxed">{faq.a}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* Responsible Gaming Notice */}
         <footer className="border-t border-slate-800 pt-8 mt-12">

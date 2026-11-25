@@ -30,6 +30,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${baseUrl}/blog/ipl-2027-retentions-184-players-auction-purse`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/blog/ipl-impact-player-rule-tactical-evolution-and-team-strategies`,
       lastModified: currentDate,
       changeFrequency: 'weekly',

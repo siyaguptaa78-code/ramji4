@@ -7,8 +7,11 @@ export interface BlogPost {
   category: string;
   readTime: string;
   publishedDate: string;
+  isoDate?: string;
   author: string;
   heroImage: string;
+  heroImageAlt?: string;
+  heroImageCaption?: string;
   summary: string;
   tableOfContents: { id: string; label: string }[];
   faqs: { q: string; a: string }[];
@@ -16,6 +19,106 @@ export interface BlogPost {
 }
 
 export const RAMJI4_BLOG_POSTS: BlogPost[] = [
+  {
+    slug: 'ipl-2027-retentions-184-players-auction-purse',
+    title: 'IPL 2027 Retentions: 184 Players Stay as Franchises Prepare for December Auction',
+    shortTitle: 'IPL 2027 Retentions & Auction Purse',
+    metaTitle: 'IPL 2027 Retentions: 184 Players Stay as Franchises Prepare for December Auction',
+    metaDescription: 'A total of 184 players have been retained for IPL 2027. See the key purse figures, available squad places and the December 16 auction date.',
+    category: 'Daily Sports News',
+    readTime: '3 Min Read',
+    publishedDate: '24 November 2026',
+    isoDate: '2026-11-24T00:00:00.000Z',
+    author: 'RAMJI247 IPL Editorial Desk',
+    heroImage: '/images/blog/ramji247ipl-com-daily-sports-news-24-nov-2026.webp',
+    heroImageAlt: 'Franchise auction room with team representatives bidding for cricket players',
+    heroImageCaption: 'The retention lists have set the stage for the IPL 2027 player auction.',
+    summary: 'The ten IPL franchises have retained 184 players, including 55 overseas players, ahead of the 2027 season, leaving ₹297.95 crore and 66 squad places available for the 16 December auction in Goa.',
+    tableOfContents: [
+      { id: 'retention-picture', label: 'The retention picture is now clear' },
+      { id: 'numbers-behind-auction', label: 'The numbers behind the auction' },
+      { id: 'teams-most-room', label: 'Which teams have the most room?' },
+      { id: 'auction-date', label: 'Auction date to remember' },
+      { id: 'what-happens-next', label: 'What happens next?' },
+      { id: 'sources', label: 'Sources' }
+    ],
+    faqs: [],
+    contentHtml: `
+      <section id="retention-picture" class="mb-10">
+        <h2 class="text-2xl md:text-3xl font-bold text-white mb-4 border-b border-sky-500/30 pb-3 flex items-center gap-3">
+          <span class="w-2.5 h-8 bg-sky-500 rounded-full inline-block"></span>
+          The retention picture is now clear
+        </h2>
+        <p class="text-slate-300 leading-relaxed text-base md:text-lg mb-4">
+          The ten IPL franchises have retained 184 players, including 55 overseas players, ahead of the 2027 season. The next major step is the player auction, scheduled for 16 December in Goa.
+        </p>
+        <p class="text-slate-300 leading-relaxed text-base md:text-lg">
+          The retention announcement gives fans a first look at how teams want to preserve their core groups before filling the remaining gaps.
+        </p>
+      </section>
+
+      <section id="numbers-behind-auction" class="mb-10">
+        <h2 class="text-2xl md:text-3xl font-bold text-white mb-4 border-b border-sky-500/30 pb-3 flex items-center gap-3">
+          <span class="w-2.5 h-8 bg-sky-500 rounded-full inline-block"></span>
+          The numbers behind the auction
+        </h2>
+        <p class="text-slate-300 leading-relaxed text-base md:text-lg mb-4">
+          According to the IPL's official announcement, franchises have spent a combined ₹1,002.05 crore on retained players. That leaves ₹297.95 crore across the ten teams for the auction.
+        </p>
+        <p class="text-slate-300 leading-relaxed text-base md:text-lg">
+          There are 66 squad places still available, including 25 overseas slots. Those openings will shape how aggressively teams approach the bidding.
+        </p>
+      </section>
+
+      <section id="teams-most-room" class="mb-10">
+        <h2 class="text-2xl md:text-3xl font-bold text-white mb-4 border-b border-sky-500/30 pb-3 flex items-center gap-3">
+          <span class="w-2.5 h-8 bg-sky-500 rounded-full inline-block"></span>
+          Which teams have the most room?
+        </h2>
+        <p class="text-slate-300 leading-relaxed text-base md:text-lg mb-4">
+          Lucknow Super Giants have the largest remaining purse at ₹47.45 crore. Kolkata Knight Riders follow with ₹41.65 crore, while Sunrisers Hyderabad have ₹40.15 crore available.
+        </p>
+        <p class="text-slate-300 leading-relaxed text-base md:text-lg">
+          At the other end, Gujarat Titans have ₹8.75 crore remaining and three squad slots to fill. A smaller purse does not automatically mean a weaker auction plan, but it does leave less room for expensive moves.
+        </p>
+      </section>
+
+      <section id="auction-date" class="mb-10">
+        <h2 class="text-2xl md:text-3xl font-bold text-white mb-4 border-b border-sky-500/30 pb-3 flex items-center gap-3">
+          <span class="w-2.5 h-8 bg-sky-500 rounded-full inline-block"></span>
+          Auction date to remember
+        </h2>
+        <p class="text-slate-300 leading-relaxed text-base md:text-lg">
+          The IPL 2027 Player Auction is scheduled for 16 December 2026 at ITC Grand Goa, starting at 11:00 AM IST. Teams will use the remaining purse and available slots to address gaps in their squads.
+        </p>
+      </section>
+
+      <section id="what-happens-next" class="mb-10">
+        <h2 class="text-2xl md:text-3xl font-bold text-white mb-4 border-b border-sky-500/30 pb-3 flex items-center gap-3">
+          <span class="w-2.5 h-8 bg-sky-500 rounded-full inline-block"></span>
+          What happens next?
+        </h2>
+        <p class="text-slate-300 leading-relaxed text-base md:text-lg">
+          Attention now shifts to the players who remain in the auction pool and the roles each franchise still needs. The most interesting moves may come from teams with larger purses, but smart squad balance will matter as much as headline bids.
+        </p>
+      </section>
+
+      <section id="sources" class="mb-8">
+        <h2 class="text-2xl md:text-3xl font-bold text-white mb-4 border-b border-sky-500/30 pb-3 flex items-center gap-3">
+          <span class="w-2.5 h-8 bg-sky-500 rounded-full inline-block"></span>
+          Sources
+        </h2>
+        <ul class="list-disc pl-6 text-slate-300 space-y-2">
+          <li>
+            IPL official retention announcement: <a href="https://www.iplt20.com/news/article/tata-ipl-2027-player-retentions-announced" target="_blank" rel="noopener noreferrer" class="text-sky-400 hover:underline">iplt20.com</a>
+          </li>
+        </ul>
+        <p class="text-xs text-slate-400 italic mt-6 pt-4 border-t border-slate-800">
+          Editorial note: This article reflects the cited reporting and official information available on 24 November 2026.
+        </p>
+      </section>
+    `
+  },
   {
     slug: 'ipl-impact-player-rule-tactical-evolution-and-team-strategies',
     title: 'IPL Impact Player Rule: Tactical Evolution, Team Strategies, and Match Dynamics',
